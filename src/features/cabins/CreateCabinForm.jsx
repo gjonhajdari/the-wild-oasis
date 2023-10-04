@@ -16,7 +16,6 @@ function CreateCabinForm({ cabinToEdit = {} }) {
   const isWorking = isCreating || isEditing;
 
   const { id: editId, ...editValues } = cabinToEdit;
-  const { image: imageName } = editValues;
   const isEditSession = Boolean(editId);
 
   const { register, handleSubmit, reset, getValues, formState } = useForm({
@@ -32,7 +31,6 @@ function CreateCabinForm({ cabinToEdit = {} }) {
         {
           newCabinData: { ...data, image },
           id: editId,
-          oldImage: imageName,
         },
         {
           onSuccess: (data) => {
