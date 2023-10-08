@@ -45,7 +45,7 @@ const StyledButton = styled.button`
   text-align: left;
   background: none;
   border: none;
-  padding: 1.2rem 2.4rem;
+  padding: 1.2rem 2rem 1.2rem 1.5rem;
   font-size: 1.4rem;
   transition: all 0.2s;
 
