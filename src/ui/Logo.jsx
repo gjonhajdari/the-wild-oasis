@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { useDarkMode } from "../context/DarkModeContext";
-import { sr } from "date-fns/locale";
 
 const StyledLogo = styled.div`
   text-align: center;
