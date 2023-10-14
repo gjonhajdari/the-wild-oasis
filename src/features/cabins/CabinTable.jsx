@@ -1,4 +1,5 @@
 import { useSearchParams } from "react-router-dom";
+
 import { useCabins } from "./useCabins";
 
 import Spinner from "../../ui/Spinner";

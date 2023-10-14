@@ -1,4 +1,5 @@
 import { useCheckout } from "./useCheckout";
+
 import Button from "../../ui/Button";
 
 function CheckoutButton({ bookingId }) {

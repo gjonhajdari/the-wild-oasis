@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { useTodayActivity } from "./useTodayActivity";
 
 import Heading from "../../ui/Heading";

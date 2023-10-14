@@ -4,8 +4,10 @@ import {
   HiOutlineCalendarDays,
   HiOutlineChartBar,
 } from "react-icons/hi2";
-import Stat from "./Stat";
+
 import { formatCurrency } from "../../utils/helpers";
+
+import Stat from "./Stat";
 
 function Stats({ bookings, confirmedStays, numDays, cabinCount }) {
   const numBookings = bookings.length;
