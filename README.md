@@ -1,8 +1,35 @@
-# React + Vite
+# The Wild Oasis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple fullstack react application made to be used as an internal platform for hotels to manage their bookings. Features an admin dashboard with charts and statistics, beautifully designed reusable styled components.
+Build to highlight the use of modern libraries like `react-query`, `react-hook-form`, `supabase`, `react-hot-toast` etc.
 
-Currently, two official plugins are available:
+Project based on [The Ultimate React Course 2023](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting started
+
+Run `npm install` to install all the required dependencies. Then start the development server using `npm run dev`
+
+```bash
+$ npm install
+$ npm run dev
+```
+
+> _Note_: Sending requests to the supabase backend is only available to authorized users so if you'd like to experiment with the app let me know and I'll create the account for you.
+
+## Screenshots
+
+Home page
+
+![](./screenshots/home.jpeg)
+
+<br>
+
+Bookings page
+
+![](./screenshots/bookings.jpeg)
+
+<br>
+
+Checkin page
+
+![](./screenshots/checkin.jpeg)
