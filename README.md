@@ -1,6 +1,6 @@
 # The Wild Oasis
 
-Simple fullstack react application made to be used as an internal platform for hotels to manage their bookings. Features an admin dashboard with charts and statistics, beautifully designed reusable styled components.
+Simple fullstack react application made to be used as an internal platform for hotels to manage their bookings. Features an admin dashboard with charts and statistics, beautifully designed reusable styled components and a dark mode toggle.
 Build to highlight the use of modern libraries like `react-query`, `react-hook-form`, `supabase`, `react-hot-toast` etc.
 
 Project based on [The Ultimate React Course 2023](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann.
